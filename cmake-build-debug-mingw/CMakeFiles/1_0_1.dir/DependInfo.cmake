@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "G:/NewInstrument/Synthesis/C/1.0/SynthesisLib/StringProcess.cpp" "G:/NewInstrument/Synthesis/C/1.0/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/SynthesisLib/StringProcess.cpp.obj"
   "G:/NewInstrument/Synthesis/C/1.0/SynthesisLib/SynthesisInit.cpp" "G:/NewInstrument/Synthesis/C/1.0/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/SynthesisLib/SynthesisInit.cpp.obj"
   "G:/NewInstrument/Synthesis/C/1.0/main.cpp" "G:/NewInstrument/Synthesis/C/1.0/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/main.cpp.obj"
   )

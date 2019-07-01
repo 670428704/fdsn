@@ -83,6 +83,9 @@
 		<Unit filename="G:/NewInstrument/Synthesis/C/1.0/SynthesisH/SynthesisInit.h">
 			<Option target="1_0_1"/>
 		</Unit>
+		<Unit filename="G:/NewInstrument/Synthesis/C/1.0/SynthesisLib/StringProcess.cpp">
+			<Option target="1_0_1"/>
+		</Unit>
 		<Unit filename="G:/NewInstrument/Synthesis/C/1.0/SynthesisLib/SynthesisInit.cpp">
 			<Option target="1_0_1"/>
 		</Unit>

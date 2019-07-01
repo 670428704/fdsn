@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw
 CMakeFiles/1_0_1.dir/all:
 	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/depend
 	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3 "Built target 1_0_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3,4 "Built target 1_0_1"
 .PHONY : CMakeFiles/1_0_1.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/1_0_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_0_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1_0_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\NewInstrument\Synthesis\C\1.0\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : CMakeFiles/1_0_1.dir/rule

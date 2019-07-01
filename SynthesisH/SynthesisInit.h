@@ -10,7 +10,7 @@
 #include "fstream"
 #include <sstream>
 #include <algorithm>
-
+#include <list>
 using namespace std;
 
 #ifndef INC_1_0_1_SYNTHESISINIT_H
@@ -26,9 +26,11 @@ class ToneLib
 {
 
 
+
     public:
-        void getFiles( string path, vector<string>&files )
+        void getFiles( string path,vector<string>&files )
         {
+            list<int> toneLibList;
             //文件句柄
             string ProgramPath;
             string fileName;
@@ -54,16 +56,20 @@ class ToneLib
         //初始化状态机
         void StateInit(string toneLibPath,unsigned int *StateDict)
         {
+            string programName;
+            string intensity;
+            string Note;
+            string beginSeek;
+            string seekLen;
+
+            unsigned int index;
+
             string str;
-            
-
             ifstream inf;
-
-            string toneLibFile ;
-            string toneLibDict ;
+            string toneLibFile;
+            string toneLibDict;
             vector<string> files;
             getFiles( toneLibPath, files );
-
             for( int i = 0; i < files.size(); i++ )
             {
                 toneLibFile = toneLibPath;
@@ -71,19 +77,33 @@ class ToneLib
                 toneLibFile = toneLibFile.append("/").append(files[i]).append("/").append(files[i]).append(".toneLib");//获取音色库文件
                 toneLibDict = toneLibDict.append("/").append(files[i]).append("/").append(files[i]).append(".toneLibList");//获取音色库引导文件
 
+
                 char buffer[256];
                 fstream outFile;
                 outFile.open(toneLibDict,ios::in);
                 cout<< toneLibDict <<"--- all file is as follows:---"<<endl;
                 while(!outFile.eof())
                 {
+
+
                     outFile.getline(buffer,256,'}');//getline(char *,int,char) 表示该行字符达到256个或遇到换行就结束
                     str = buffer;
 
-                    str.find('-');
+                    // 第一步，获取音色名
+                    for(int i=0;i<=str.size()-3;i++)
+                    {
+                        str[i]=str[i+3];
+                        str[i+3] = '\0';
+                    }
+                    index = str.find('-');
+                    programName = str.substr(0,index);
 
-                    cout << buffer << endl;
+
+                    cout << programName << endl;
+                    cout << str << endl;
+
                 }
+
 
 
 

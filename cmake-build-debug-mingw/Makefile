@@ -122,6 +122,33 @@ depend:
 	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/build
 .PHONY : 1_0_1/fast
 
+SynthesisLib/StringProcess.obj: SynthesisLib/StringProcess.cpp.obj
+
+.PHONY : SynthesisLib/StringProcess.obj
+
+# target to build an object file
+SynthesisLib/StringProcess.cpp.obj:
+	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/SynthesisLib/StringProcess.cpp.obj
+.PHONY : SynthesisLib/StringProcess.cpp.obj
+
+SynthesisLib/StringProcess.i: SynthesisLib/StringProcess.cpp.i
+
+.PHONY : SynthesisLib/StringProcess.i
+
+# target to preprocess a source file
+SynthesisLib/StringProcess.cpp.i:
+	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/SynthesisLib/StringProcess.cpp.i
+.PHONY : SynthesisLib/StringProcess.cpp.i
+
+SynthesisLib/StringProcess.s: SynthesisLib/StringProcess.cpp.s
+
+.PHONY : SynthesisLib/StringProcess.s
+
+# target to generate assembly for a file
+SynthesisLib/StringProcess.cpp.s:
+	$(MAKE) -f CMakeFiles\1_0_1.dir\build.make CMakeFiles/1_0_1.dir/SynthesisLib/StringProcess.cpp.s
+.PHONY : SynthesisLib/StringProcess.cpp.s
+
 SynthesisLib/SynthesisInit.obj: SynthesisLib/SynthesisInit.cpp.obj
 
 .PHONY : SynthesisLib/SynthesisInit.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... 1_0_1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... SynthesisLib/StringProcess.obj
+	@echo ... SynthesisLib/StringProcess.i
+	@echo ... SynthesisLib/StringProcess.s
 	@echo ... SynthesisLib/SynthesisInit.obj
 	@echo ... SynthesisLib/SynthesisInit.i
 	@echo ... SynthesisLib/SynthesisInit.s
