@@ -33,25 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803ab53b-94e1-46aa-8ce7-8d30d22a2de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SynthesisLib/StringProcess.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SynthesisH/SynthesisInit.h" beforeDir="false" afterPath="$PROJECT_DIR$/SynthesisH/SynthesisInit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/1_0_1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/1_0_1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/1_0_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/1_0_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/1_0_1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="803ab53b-94e1-46aa-8ce7-8d30d22a2de1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-mingw/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SynthesisH/SynthesisInit.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state relative-caret-position="13">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="e#49#68#0" expanded="true" />
               </folding>
@@ -206,12 +188,12 @@
       <workItem from="1561774455073" duration="23113000" />
       <workItem from="1561860952825" duration="11744000" />
       <workItem from="1561946823288" duration="3775000" />
-      <workItem from="1561977922948" duration="7411000" />
+      <workItem from="1561977922948" duration="7699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47517000" />
+    <option name="totallyTimeSpent" value="47805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -222,7 +204,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26837417" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26837417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SynthesisH/SynthesisInit.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        <state relative-caret-position="13">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
             <element signature="e#49#68#0" expanded="true" />
           </folding>
