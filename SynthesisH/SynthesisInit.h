@@ -45,6 +45,7 @@ class ToneLib
                         files.push_back( fileinfo.name );
                     }
                 }
+
                 while(_findnext(hFile, &fileinfo) == 0);_findclose(hFile);
             }
         };
@@ -79,7 +80,7 @@ class ToneLib
                     outFile.getline(buffer,256,'}');//getline(char *,int,char) 表示该行字符达到256个或遇到换行就结束
                     str = buffer;
 
-                    str.find('-')
+                    str.find('-');
 
                     cout << buffer << endl;
                 }
