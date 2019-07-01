@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-G:/NewInstrument/Synthesis/C/1.0/SynthesisH/SynthesisInit.h
+D:/Project/C/1.0/fdsn/SynthesisH/SynthesisInit.h
 iostream
 -
 string
@@ -18,7 +18,7 @@ io.h
 string.h
 -
 fstream
-G:/NewInstrument/Synthesis/C/1.0/SynthesisH/fstream
+D:/Project/C/1.0/fdsn/SynthesisH/fstream
 sstream
 -
 algorithm
@@ -26,9 +26,9 @@ algorithm
 list
 -
 
-G:/NewInstrument/Synthesis/C/1.0/SynthesisLib/SynthesisInit.cpp
+D:/Project/C/1.0/fdsn/SynthesisLib/SynthesisInit.cpp
 ../SynthesisH/SynthesisInit.h
-G:/NewInstrument/Synthesis/C/1.0/SynthesisH/SynthesisInit.h
+D:/Project/C/1.0/fdsn/SynthesisH/SynthesisInit.h
 iostream
 -
 string
@@ -40,7 +40,7 @@ io.h
 string.h
 -
 
-G:/NewInstrument/Synthesis/C/1.0/main.cpp
+D:/Project/C/1.0/fdsn/main.cpp
 iostream
 -
 string
@@ -52,5 +52,5 @@ io.h
 string.h
 -
 SynthesisH/SynthesisInit.h
-G:/NewInstrument/Synthesis/C/1.0/SynthesisH/SynthesisInit.h
+D:/Project/C/1.0/fdsn/SynthesisH/SynthesisInit.h
 

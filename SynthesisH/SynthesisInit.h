@@ -62,14 +62,17 @@ class ToneLib
             string beginSeek;
             string seekLen;
 
-            unsigned int index;
+            unsigned int j=0;
+            int index1;
 
-            string str;
+            char str1[256];
+            std::string str;
             ifstream inf;
             string toneLibFile;
             string toneLibDict;
             vector<string> files;
             getFiles( toneLibPath, files );
+
             for( int i = 0; i < files.size(); i++ )
             {
                 toneLibFile = toneLibPath;
@@ -81,40 +84,75 @@ class ToneLib
                 char buffer[256];
                 fstream outFile;
                 outFile.open(toneLibDict,ios::in);
-                cout<< toneLibDict <<"--- all file is as follows:---"<<endl;
-                while(!outFile.eof())
+                cout<< toneLibDict <<endl;
+                outFile.getline(buffer,256,'}');
+                cout<< buffer <<endl;
+                while( !outFile.eof() )
                 {
-
-
-                    outFile.getline(buffer,256,'}');//getline(char *,int,char) 表示该行字符达到256个或遇到换行就结束
+                    outFile.getline(buffer,256,'}');
                     str = buffer;
+                    //按—字符进行切分
+                    std::replace(str.begin(), str.end(), '{', '-');
+                    std::replace(str.begin(), str.end(), '"', '-');
+                    std::replace(str.begin(), str.end(), ':', '-');
+                    std::replace(str.begin(), str.end(), ',', '-');
+                    std::replace(str.begin(), str.end(), '-', '-');
+                    std::replace(str.begin(), str.end(), ' ', '-');
 
                     // 第一步，获取音色名
-                    for(int i=0;i<=str.size()-3;i++)
+                    for(j=0;j<3;j++)
                     {
-                        str[i]=str[i+3];
-                        str[i+3] = '\0';
+                        str[j] = '\0';
                     }
-                    index = str.find('-');
-                    programName = str.substr(0,index);
+                    std::remove(str.begin(), str.end(),'\0');
+                    index1 = str.find('-');
+                    programName = str.substr(0,index1);
+                    cout<< str <<endl;
+                    cout<< programName <<endl;
 
 
-                    cout << programName << endl;
-                    cout << str << endl;
+                    for(j=0;j<index1;j++)
+                    {
+                        str[j] = '\0';
+                    }
+                    std::remove(str.begin(),str.end(),'\0');
+
 
                 }
 
+//                while( !outFile.eof() )
+//                {
+//                    outFile.getline(buffer,256,'}');//getline(char *,int,char) 表示该行字符达到256个或遇到换行就结束
+//                    cout << buffer << endl;
+//                    str = buffer;
+//                    // 第一步，获取音色名
+//                    cout << toneLibDict << endl;
+//                    for(j=0;j<=str.size() -3;j++)
+//                    {
+//                        str[j]=str[j+3];
+//                        str[j+3] = '\0';
+//                    }
+//                    index = str.find('-');
+//                    programName = str.substr(0,index);
+//                    // 第二步，获取力度
+////                    for( int j =0;j<=str.size()-index;j++)
+////                    {
+////                        str[j]=str[j+index+1];
+////                        str[j+index] = '\0';
+////                    }
+////                    index = str.find('-');
+////                    intensity = str.substr(0,index);
+//
+//                    cout << programName<< " " << intensity << endl;
+//                    cout << str << endl;
+//
+//                }
 
-
-
-
-
-                cout << toneLibDict << endl;
-                cout << toneLibFile << endl;
-
+//                cout << toneLibDict << endl;
+//                cout << toneLibFile << endl;
 
             }
-        };
+        }
 
 };
 
